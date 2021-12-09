@@ -46,10 +46,7 @@ public class Thanos {
         
         // TODO 3 : For each hero, alphabetically, print the corresponding flower
         
-        //for (Hero hero : treeParty.keySet()) {
-        	//Flower flower = treeParty.get(hero);
-        	//System.out.println(flower.getName());
-        //}
+       
         for(Map.Entry<Hero, Flower>entry : treeParty.entrySet()) {
         	Hero hero = entry.getKey();
         	
